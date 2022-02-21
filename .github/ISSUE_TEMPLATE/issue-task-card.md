@@ -11,16 +11,18 @@ List
 ------
 
 ### ISSUE
-1.
-2.
-3.
+- Group :
+- Type :
+- Detail :  
 
 ### TODO
-1.
-2.
-3.
+1. [] Job1
+2. [ ] Job2
+3. [] Job3
 
-### ETC
-+
-+
-+
+### Estimated time
+> Pick one
+> ### `1.5h`
+
+### Labels
+- Sprint : 'Sprint 1'
