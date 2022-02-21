@@ -11,9 +11,9 @@ List
 ------
 
 ### ISSUE
-- Group :
-- Type :
-- Detail :  
+- Group : `client`
+- Type : `feature`
+- Detail : `add docs` 
 
 ### TODO
 1. [] Job1
@@ -25,4 +25,6 @@ List
 > ### `1.5h`
 
 ### Labels
+- Estimated time : `E:1.5h`
+- Group : `client`
 - Sprint : 'Sprint 1'
