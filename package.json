@@ -1,0 +1,23 @@
+{
+  "name": "btc1stproject-06",
+  "version": "1.0.0",
+  "description": "- 커밋 메시지의 각 줄은 100자 넘기지 않도록 작성\r - 커밋 메시지 헤더 (Commit Message Header)\r - type(scope): short summary",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestates/BTC1stProject-06.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codestates/BTC1stProject-06/issues"
+  },
+  "homepage": "https://github.com/codestates/BTC1stProject-06#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

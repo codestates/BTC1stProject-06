@@ -1,0 +1,13 @@
+{
+    "name": "metaNFT wallet",
+    "description": "metaNFT wallet",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "./UI/app.js",
+        "type": "module"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
