@@ -3,11 +3,23 @@
     "description": "metaNFT wallet",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+        "16": "./UI/icon/icon_main.png",
+        "32": "./UI/icon/icon_main.png",
+        "48": "./UI/icon/icon_main.png",
+        "128": "./UI/icon/icon_main.png"
+    },
     "background": {
         "service_worker": "./UI/app.js",
         "type": "module"
     },
     "permissions": [
         "storage"
-    ]
+    ],
+    "action": {
+        "default_icon": "./UI/icon/icon_main.png",
+        "default_popup": "popup.html"
+    }
+
 }
+
