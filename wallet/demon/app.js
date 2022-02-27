@@ -1,6 +1,7 @@
 import Web3 from "web3";
 const bscTestnet = `https://speedy-nodes-nyc.moralis.io/11ed355a9e5af834c4ec415e/bsc/testnet`;
-const web3 = new Web3(new Web3.providers.HttpProvider(bscTestnet));
+const bscMainnet = `https://data-seed-prebsc-1-s1.binance.org:8545/`;
+const web3 = new Web3(new Web3.providers.HttpProvider(bscMainnet));
 const allTransactions = [];
 let lastest = checkedBlockNum;
 
