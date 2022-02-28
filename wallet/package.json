@@ -5,11 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node ./test/app.js"
+    "test": "node ./test/app.js",
+    "start": "node ./UI/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eth-lightwallet": "^4.0.0"
+    "eth-lightwallet": "^4.0.0",
+    "web3": "^1.7.0"
   }
 }

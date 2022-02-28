@@ -3,23 +3,15 @@
     "description": "metaNFT wallet",
     "version": "1.0",
     "manifest_version": 3,
-    "icons": {
-        "16": "./UI/icon/icon_main.png",
-        "32": "./UI/icon/icon_main.png",
-        "48": "./UI/icon/icon_main.png",
-        "128": "./UI/icon/icon_main.png"
-    },
     "background": {
-        "service_worker": "./UI/app.js",
+        "service_worker": "./background.js",
         "type": "module"
     },
     "permissions": [
         "storage"
     ],
     "action": {
-        "default_icon": "./UI/icon/icon_main.png",
-        "default_popup": "popup.html"
+        "default_popup": "./UI/signin.html",
+        "default_title": "Press Ctrl(Win)/Command(Mac)+Shift+Right/Left to flip tabs"
     }
-
 }
-
