@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/codestates/BTC1stProject-06#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "axios": "^0.26.0",
+    "eth-lightwallet": "^4.0.0",
+    "express": "^4.17.3",
+    "web3": "^1.7.0"
   }
 }
